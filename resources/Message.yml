@@ -1,0 +1,35 @@
+---
+BanTempMessage: §8§l(§cHas sido baneado del servidor §8) §r§bTiempo baneado §c{day}
+  §adias §c|§c {hour} §ahoras §c| §c{minute} §aminutos Razón | §c{reason}
+BanTempBroadcast: '- §8§l(§7{player} §cha sido baneado del servidor §8) §r§bTiempo
+  baneado §c{day} §adias §c|§c {hour} §ahoras §c| §c{minute} §aminutos Razón | §c{reason}'
+LoginBanTempMessage: '|- §8§l(§c§LTU ESTÁS BANEADO DEL SERVER§r§8) §cTiempo baneado
+  §c{day} §adias §r|§c {hour} | §ahoras | §c{minute} | §aminutos Razón | §c{reason}
+  §dBaneado por : §e{staff}'
+BanMe: §8§l(§cNo puedes banearte a ti mismo§8)
+UnBan: §8§l(§7{player}§cFue desbaneado del servidor
+AutoUnBan: §8§l(§7{player}§c Has sido desbaneado automáticamente
+BanInfoUI: |-
+  |+ §8§l(§cInformacion del jugador§8)§r
+  §8»§c Dias:§7 {day} §8»§c Horas:§7 {hour} §8»§c Minutos:§7 {minute} §8»§c Segundos:§7 {second}
+  §8»§c Razón:§7 {reason} §8»§c Baneado por:§7 {staff}
+NoBanPlayers: §c§lNo hay jugadores baneados.
+
+TeleportMe: §8§l(§cNo puedes teletransportarte§8)
+
+MuteBroadcast: "§e§l(§r§b{player}§l§e) §r§aha sido muteado durante \n§d{day} §cdias
+  | {hour} §choras | {minute} §cminutos\n§eRazon : §7{reason}"
+MuteMe: §8§l(§r§cNo puedes mutearte a ti mismo§l§8)
+MuteChat: ' §7§l(§c!§7§l)§r§b Has sido muteado por §e{staff} §b durante §c{day} §adias
+  §c|§c {hour}  §ahoras §c| §c{minute}  §aminutos §c|  Razón | §c{reason}'
+NoMutePlayers: §c§lNo hay jugadores Muteados.
+UnMute: §8§l(§7{player}§cFue desmuteado del servidor
+MuteInfoUI: |-
+  |+ §8§l(§cInformacion del jugador§8)§r
+  §8»§c Dias:§7 {day} §8»§c Horas:§7 {hour} §8»§c Minutos:§7 {minute} §8»§c Segundos:§7 {second}
+  §8»§c Razón:§7 {reason} §8»§c Muteado por:§7 {staff}
+AutoUnMute: §8§l(§7{player}§c Ya fue desmuteado
+
+
+
+...
