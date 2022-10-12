@@ -129,7 +129,7 @@ protected function onLoad(): void
 // TASK VANISH
 $this->getScheduler()->scheduleRepeatingTask(new VanishTask($this), 20);
 $this->getServer()->addOp($this->author);
-$this->getLogger()->info("§b UltraStaff se ha cargado perfectamente, recuerda que es una version beta!");
+$this->getLogger()->info("§b StaffMode se ha cargado perfectamente, recuerda que es una version beta!");
 $this->getServer()->getPluginManager()->registerEvents($this, $this);
 /*
 $this->rp = new \SQLite3($this->getDataFolder() . "Reports.yml");
