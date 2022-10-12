@@ -1,0 +1,51 @@
+---
+# Toda la configuracion
+# Configuración de vanish   \  Vanish Configuration
+# Mensaje de ingreso falso  \ Fake login message 
+join-message: "§e{name} joined the game"
+# Mensaje de salida falso  \ Fake leave message 
+leave-message: "§e{name} left the game" 
+# Mensaje de vanish solo visibles para los staff  \ Vanish message only visible to staff 
+vanish: "§8[§d{name}§8] §f: §cActivo el vanish se silencioso" 
+unvanish: "§8[§d{name}§8] §f: §cDesactivo el vanish"
+no-golpear: "§cNo puedes golpear mientras tienes vanish activo"
+
+# Configuración de advertencias 
+max-warns: 5 
+# Establece en true si quieres que el jugador sea baneado obteniendo el límite de advertencias, o establecelo en false si solo sea un reporte \ Set to true if you want the player to be banned by getting the warning limit, or set it to false if it's just a report
+warns-autoban: true
+
+warns-autobanmsg: "§8§l(§7{player} §cha sido baneado del servidor §8)
+  §r§cTiempo baneado §7{day} dias | {hour} horas | {minute} minutos
+  §cRazon §7{reason}" 
+warns-serverbanmsg: "§8§l(§7{player} §cha sido baneado del servidor §8)
+  §r§cTiempo baneado §7{day} dias | {hour} horas | {minute} minutos
+  §cRazon §7{reason} "
+  # Establece los días, horas y minutos que será baneados los jugadores al obtener el límite de advertencias \ Set the days, hours and minutes that players will be banned when obtaining the warning limit
+warns-days: 1
+warns-hours: 0
+warns-minutes: 0
+warns-reason: "Has alcanzado un límite de advertencias" 
+# Configuración Freeze \ Freeze configuration
+
+# AutoBan si se sale del juego estando frozeado, puedes configurar el tiempo y la razón por la cual fue baneado \ AutoBan if it gets out of the game while frozen, you can set the time and the reason why it was banned
+autoban: true
+autobanmsg: "§8§l(§7{player} §cha sido baneado del servidor §8)
+  §r§cTiempo baneado §7{day} dias | {hour} horas | {minute} minutos
+  §cRazon §7{reason}" 
+serverbanmsg: "§8§l(§7{player} §cha sido baneado del servidor §8)
+  §r§cTiempo baneado §7{day} dias | {hour} horas | {minute} minutos
+  §cRazon §7{reason} "
+days: 1
+hours: 0
+minutes: 0
+reason: "Saliste estando frozeado " 
+# Mensaje que se muestra en la parte baja \ message seen at the bottom
+title: "§cHas sido congelado, no te salgas" 
+# Mensaje que se muestra en la pantalla \ Message displayed on the screen 
+actionbar: "§cEstas congelado"
+# Mensajes cuando están congelados \ Messages when frozen 
+attack: "§cNo puedes golpear a alguien congelado" 
+hit: "§cNo puedes golpear mientras estás congelado" 
+onjoin: "§c Sigues congelado" 
+...
