@@ -1,0 +1,122 @@
+name: StaffMode
+main: Staff\Main
+version: 1
+api:
+- 4.0.0
+author: ItsFreyserPvP
+website: 
+commands:
+
+  staff:
+
+    description: StaffMode
+
+    usage: /staff
+
+    permission: staff.cdm
+
+  tempban:
+
+    description: TempBan 
+
+    usage: /temp
+
+    permission: tempban.cdm
+
+  mute:
+
+    description: Muted players
+
+    usage: /mute
+
+    permission: mute.cdm
+
+  report:
+
+    description: Report
+
+    usage: /report
+
+    permission: report.cdm
+  
+  freeze:
+
+    description: Use /freeze 
+
+    usage: /freeze
+
+    permission: freeze.cdm
+  
+  staffchat:
+
+    description: Use /staffchat 
+
+    usage: /staffchat
+
+    permission: staffchat.cdm
+  
+  vanish:
+
+    description: Use /vanish 
+
+    usage: /vanish
+
+    permission: vanish.cdm
+ 
+permissions:
+
+  staff.cdm:
+
+    default: op
+
+    children: ~
+
+    description: Permission of StaffMode
+
+  tempban.cdm:
+
+    default: op
+
+    children: ~
+
+    description: Permission if ban
+  mute.cdm:
+
+    default: op
+
+    children: ~
+
+    description: Permission if mute
+
+  report.cdm:
+
+    default: true
+
+    children: ~
+
+    description: Permission report
+
+  freeze.cdm:
+
+    default: op
+
+    children: ~
+
+    description: Permission freeze
+
+  staffchat.cdm:
+
+    default: op
+
+    children: ~
+
+    description: Permission staffchat
+
+  vanish.cdm:
+
+    default: op
+
+    children: ~
+
+    description: Permission vanish
+...
